@@ -1,0 +1,16 @@
+The dataset contains detailed individual information: ID, gender, hypertension, heart disease, marital status, work type, residence, average glucose level, BMI, smoking status, and stroke incidence. Our goal is to help predict the likely hood of a patient suffering a stroke.
+
+I used pandas' fillna function to address missing values of BMI. Syntax issues with count plots were resolved, and I independently learned box plots, which were straightforward.
+
+Useful plots included count plots for individual distribution by work type and stroke status, and box plots showing age distribution by stroke status. These, along with power plot of tender and smoking status versus stroke and correlation heat map where also useful.
+
+Conclusion/Insights:
+1. The data is suitable for analysis due to its diverse group mix.
+2. The majority of individuals have an average glucose level below 125.
+3. The private sector has the most strokes in total, but employed individuals have the highest percentage rate of strokes.
+4. Rural and urban populations are almost equal, with no significant difference in stroke risk between these areas.
+5. Most stroke occurrences were in individuals aged between 60 and 80.
+6. Former smokers have a higher stroke risk than current smokers or those who have never smoked.
+7. Older age is linked to higher BMI, higher glucose, and a significantly higher risk of stroke.
+ 
+From this EDA and data analysis, I realize that data is never clean; we have to clean it by making some changes to it. We also need to understand which and what parameters we need to use, and how to get the right insights from the data. Also, choosing the right plot type is a skill. The EDA process is not a single step; it is one of the biggest parts of machine learning.
